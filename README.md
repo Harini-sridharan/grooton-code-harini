@@ -10,12 +10,12 @@ js code
    {
      margin:0px; background-color:#800080; color:#f7f7f7; font-family:Arial, Helvetica, sans-serif;
    }
-   #main
+ 
    {
      width:600px; height:260px; margin-left:auto; margin-right:auto; border-radius:5px; padding-left:10px; margin-top:100px;
      border-top:3px double #f1f1f1; border-bottom:3px double #f1f1f1; padding-top:20px;
    }
-   #main table
+   table
    {
      font-family:"Comic Sans MS", cursive;
    } 
@@ -43,7 +43,7 @@ js code
 function login()
 	{
 		var uname = document.getElementById("email").value;
-		var pwd = document.getElementById("pwd1").value;
+		var pwd = document.getElementById("pwd1").value; 
 		var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
 		if(uname =='')
 		{
